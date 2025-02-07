@@ -1,0 +1,43 @@
+button {
+    i {
+        font-size: 2em;
+    }
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -12px;
+    background-color: #f6e275;
+    padding: 10px;
+
+    width: 120px;
+
+    li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: #c1850b;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+
+    .whatsapp{
+        background-color: #0dbf43;
+        border-radius: 8px;
+        padding: 2px 8px;
+        margin-top: 10px;
+
+        a{
+            color: #fff;
+
+            span{
+                margin-left: 3px;
+            }
+        }
+    }
+}
