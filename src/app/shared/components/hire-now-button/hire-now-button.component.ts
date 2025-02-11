@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-hire-now-button',
@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './hire-now-button.component.scss'
 })
 export class HireNowButtonComponent {
+  @Input() textButton: string = '';
+  @Input() altStyle: string = ''; //recebe o nome da classe para alterar o estilo do botão
 
   goToWhatsapp() {
     window.open('phone_number', '_blank');
