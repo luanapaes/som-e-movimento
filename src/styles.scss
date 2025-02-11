@@ -9,3 +9,17 @@ body {
 html {
     height: 100%;
 }
+
+.p-carousel-indicators{
+    display: none;
+}
+
+.p-carousel-prev,
+.p-carousel-next{
+    border: none;
+}
+
+.p-ripple{
+    background-color: transparent;
+    color: #efe4a7;
+}

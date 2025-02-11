@@ -2,16 +2,16 @@
 <mat-menu #menu="matMenu">
     <ul>
         <li>
-            <a href="">Início</a>
+            <a (click)="scrollToSection('inicio')">Início</a>
         </li>
         <li>
-            <a href="">Serviços</a>
+            <a (click)="scrollToSection('banda')">Banda</a>
         </li>
         <li>
-            <a href="">Banda</a>
+            <a (click)="scrollToSection('sobre')">Sobre</a>
         </li>
         <li>
-            <a href="">Sobre</a>
+            <a (click)="scrollToSection('servicos')">Serviços</a>
         </li>
         <li class="whatsapp">
             <a href="">
@@ -19,5 +19,6 @@
                 <span>Saiba mais</span>
             </a>
         </li>
+
     </ul>
 </mat-menu>
