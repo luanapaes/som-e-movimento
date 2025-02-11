@@ -1,18 +1,34 @@
 <app-header></app-header>
 
-<app-hero></app-hero>
+<app-hero id="inicio"></app-hero>
 
-<div class="carrossel" id="carrossel">
+<div class="carrossel" id="banda">
     <h1>Orquestra e Banda Som & Movimento Muito Além da Música</h1>
     <app-corousel></app-corousel>
 </div>
 
-<div class="banda" id="banda">
+<div class="banda" id="sobre">
     <h2>Uma mistura de ritmos, tradição e paixão que encanta em cada acorde</h2>
     <p>
         Fundada em 2022, a Orquestra e Banda Som & Movimento traz a riqueza da música brasileira em todas as suas formas. Do
         frevo ao samba, passando pelo pop rock e boleros, a banda conecta gerações com apresentações vibrantes e inesquecíveis.
         Mais do que música, entregamos emoção e histórias em cada evento.
     </p>
-    <app-hire-now-button cla></app-hire-now-button>
+    <app-hire-now-button textButton="Contrate a Banda Agora!" altStyle="normal"></app-hire-now-button>
+</div>
+
+<hr>
+
+<div class="servicos" id="servicos">
+    <div>
+        <img src="../../../assets/images/servicos.png" alt="">
+
+        <h3>Festivais e Shows</h3>
+
+        <p>Leve energia e qualidade para grandes eventos. Nossa banda domina o palco com 
+            performances vibrantes que conectam o público.
+        </p>
+
+        <app-hire-now-button textButton="Reserve para Seu Festival" altStyle="alt"></app-hire-now-button>
+    </div>
 </div>
