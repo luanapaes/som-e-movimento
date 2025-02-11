@@ -12,5 +12,10 @@ import { MatButtonModule } from '@angular/material/button';
   styleUrl: './menu.component.scss'
 })
 export class MenuComponent {
-
+  scrollToSection(id: string) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
 }
