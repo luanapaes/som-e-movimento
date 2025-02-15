@@ -5,59 +5,49 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     display: flex;
     flex-direction: column;
     justify-content: end;
 
     .content {
         width: 100%;
-        height: 60%;
+        height: 38%;
         padding-left: 20px;
         box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
 
         div {
             display: flex;
             justify-content: space-between;
-            width: 75px;
+            width: 98px;
             align-items: center;
+            margin-bottom: 10px;
 
             img {
-                width: 30px;
-                height: 30px;
+                width: 35px;
+                height: 35px;
             }
 
             h1 {
-                font-size: 7px;
+                font-size: 10px;
                 color: #e9e18e;
                 text-transform: uppercase;
             }
         }
 
-        .title {
-            color: #f8f1a5;
-            font-size: 12px;
-            width: 240px;
-            margin-bottom: 0;
-        }
-
-        p {
-            width: 70%;
-            color: #f1eeca;
-            font-size: 8px;
-            font-weight: bold;
-            text-align: start;
-            margin-top: 3px;
-        }
-
         a {
-            background: linear-gradient(180deg, rgba(190, 128, 5, 1) 47%, rgba(248, 229, 120, 1) 100%);
+            background: #f6e275;
             text-decoration: none;
-            color: #3a3503;
+            color: #5d523a;
             font-weight: bold;
             font-size: 12px;
-            padding: 3px 10px;
+            padding: 3px 6px;
             border-radius: 30px;
+            width: 180px;
+            text-align: center;
         }
     }
 }
