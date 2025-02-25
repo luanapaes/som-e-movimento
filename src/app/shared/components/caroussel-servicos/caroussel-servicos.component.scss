@@ -1,0 +1,17 @@
+.card{
+    width: 400px;
+}
+
+@media (min-width: 375px) and (max-width: 430px) {
+    .card {
+        margin-top: 3%;
+        width: auto;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 360px) {
+    .card {
+        margin-top: 3%;
+        width: auto;
+    }
+}
