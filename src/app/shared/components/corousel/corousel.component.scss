@@ -27,6 +27,12 @@
     }
 }
 
+@media (min-width: 344px) and (max-width: 344px) {
+    .card {
+        width: 100%;
+    }
+}
+
 @media (min-width: 360px) and (max-width: 360px) {
     .card {
         margin-top: 3%;
