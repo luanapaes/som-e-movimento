@@ -1,6 +1,6 @@
 <div class="card">
-    <p-carousel class="carrossel-servicos" [value]="equipeArray" [numVisible]="1" [numScroll]="1" [circular]="true"
-        [responsiveOptions]="responsiveOptions" [autoplayInterval]="2000">
+    <p-carousel class="carrossel-servicos" [value]="equipeArray" [numVisible]="responsividade" [numScroll]="1" [circular]="true"
+        [responsiveOptions]="responsiveOptions" [autoplayInterval]="10000">
         <ng-template let-membro pTemplate="item">
             <div class="border-1 surface-border border-round" style="width: 100%;">
                 <app-card-membro
