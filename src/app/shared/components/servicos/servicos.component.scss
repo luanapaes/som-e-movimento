@@ -9,7 +9,7 @@ div {
     padding: 5px 15px;
 
     height: 300px;
-    width: 100%;
+    width: 95%;
 
     box-sizing: border-box;
 
@@ -29,5 +29,17 @@ div {
         color: #3a3503;
         font-weight: 500;
         margin: 0;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 430px) {
+    div{
+        width: 100%;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 360px) {
+    div{
+        width: 100%;
     }
 }

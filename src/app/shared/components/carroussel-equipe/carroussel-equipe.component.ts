@@ -19,6 +19,7 @@ import { CardMembroComponent } from "../card-membro/card-membro.component";
 })
 export class CarrousselEquipeComponent {
   responsiveOptions: any[] | undefined;
+  responsividade = 0;
 
   equipeArray: Membro[] = [
     {
@@ -63,7 +64,7 @@ export class CarrousselEquipeComponent {
     this.responsiveOptions = [
       {
         breakpoint: '1024px', // Para telas grandes
-        numVisible: 1,
+        numVisible: 3,
         numScroll: 1
       },
       {
@@ -77,5 +78,7 @@ export class CarrousselEquipeComponent {
         numScroll: 1
       }
     ];
+
+    this.responsividade = this.responsiveOptions[0].numVisible;
   }
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
 import { CarouselModule } from 'primeng/carousel';
 import { TagModule } from 'primeng/tag';
@@ -17,6 +17,7 @@ import { ServicosComponent } from '../servicos/servicos.component';
   templateUrl: './caroussel-servicos.component.html'
 })
 export class CarousselServicosComponent {
+  responsividade = 0;
 
   servicosArray: Servicos[] = [
     {
@@ -45,8 +46,8 @@ export class CarousselServicosComponent {
     this.responsiveOptions = [
       {
         breakpoint: '1024px', // Para telas grandes
-        numVisible: 1,
-        numScroll: 1
+        numVisible: 3,
+        numScroll: 3
       },
       {
         breakpoint: '768px', // Para tablets
@@ -59,5 +60,7 @@ export class CarousselServicosComponent {
         numScroll: 1
       }
     ];
+
+    this.responsividade = this.responsiveOptions[0].numVisible;
   }
 }
