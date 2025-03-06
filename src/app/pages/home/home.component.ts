@@ -5,6 +5,7 @@ import { CorouselComponent } from '../../shared/components/corousel/corousel.com
 import { HireNowButtonComponent } from '../../shared/components/hire-now-button/hire-now-button.component';
 import { CarousselServicosComponent } from "../../shared/components/caroussel-servicos/caroussel-servicos.component";
 import { CarrousselEquipeComponent } from "../../shared/components/carroussel-equipe/carroussel-equipe.component";
+import { FooterComponent } from "../../shared/components/footer/footer.component";
 
 @Component({
   selector: 'app-home',
@@ -15,7 +16,8 @@ import { CarrousselEquipeComponent } from "../../shared/components/carroussel-eq
     CorouselComponent,
     HireNowButtonComponent,
     CarousselServicosComponent,
-    CarrousselEquipeComponent
+    CarrousselEquipeComponent,
+    FooterComponent
 ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
